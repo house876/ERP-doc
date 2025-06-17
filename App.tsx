@@ -296,9 +296,9 @@ const App: React.FC = () => {
       )}
       <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-xs text-gray-500">
         <img src="/logo.png" alt="윤성 로고" className="w-8 h-8 mb-2 rounded-full mx-auto" />
-                <p>본 애플리케이션은 윤성 황인호 매니저에 의해 제작되었습니다.</p>
+        <p>본 애플리케이션은 윤성 황인호 매니저에 의해 제작되었습니다.</p>
         <p>문의사항은 황인호 [설계2팀]<ihhwang@ysfc.co.kr>으로 문의 바랍니다.</p>
-        <p>&copy; {new Date().getFullYear()} 윤성 품번 박사. 모든 권리 보유.</p>
+        <p>&copy; 2025 윤성 품번 박사. 모든 권리 보유.</p>
       </footer>
     </div>
   );
