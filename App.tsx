@@ -299,7 +299,7 @@ const App: React.FC = () => {
   <p>본 애플리케이션은 윤성 황인호 매니저에 의해 제작되었습니다.</p>
   <p>
     문의사항은 황인호 [설계2팀] 
-    <a href="mailto:kihhwang@ysfc.co.kr" className="text-blue-600 hover:underline">
+    <a href="mailto:ihhwang@ysfc.co.kr" className="text-blue-600 hover:underline">
       kihhwang@ysfc.co.kr
     </a>
     으로 문의 바랍니다.
