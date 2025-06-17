@@ -1,0 +1,11 @@
+{
+  "name": "yoonseong-erp-app",
+  "version": "1.0.0",
+  "description": "CAD BOM to ERP data application",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=bundle.js --format=esm --platform=browser --loader:.tsx=tsx --loader:.ts=ts --define:process.env.API_KEY='\"'$API_KEY'\"' --external:react --external:react-dom --external:react-dom/client --external:@google/genai --external:xlsx"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  }
+}
